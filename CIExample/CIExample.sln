@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIExample.Web", "CIExample.Web\CIExample.Web.csproj", "{24174933-B7FD-4A7F-832A-67F475046F9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{FE8A4AE0-DD17-4901-A19B-605C6EA250C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{AECA67A3-2A47-41E3-B456-36E46C0EFA8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{24174933-B7FD-4A7F-832A-67F475046F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24174933-B7FD-4A7F-832A-67F475046F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24174933-B7FD-4A7F-832A-67F475046F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24174933-B7FD-4A7F-832A-67F475046F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8A4AE0-DD17-4901-A19B-605C6EA250C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8A4AE0-DD17-4901-A19B-605C6EA250C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8A4AE0-DD17-4901-A19B-605C6EA250C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8A4AE0-DD17-4901-A19B-605C6EA250C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AECA67A3-2A47-41E3-B456-36E46C0EFA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AECA67A3-2A47-41E3-B456-36E46C0EFA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AECA67A3-2A47-41E3-B456-36E46C0EFA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AECA67A3-2A47-41E3-B456-36E46C0EFA8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E92BC765-6BEB-4E05-9DE5-6AF863EC8691}
+		SolutionGuid = {EB33B71E-22DA-4608-9252-4DBB963582D8}
 	EndGlobalSection
 EndGlobal
