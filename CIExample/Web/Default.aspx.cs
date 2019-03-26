@@ -6,7 +6,7 @@ namespace Web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ltrTest.Text = new DAL.HelloWorld().Test();
+            ltrTest.Text = new BLL.HelloWorld().Test();
         }
     }
 }
