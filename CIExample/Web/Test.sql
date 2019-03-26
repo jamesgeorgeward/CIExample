@@ -1,4 +1,4 @@
 INSERT INTO Test
 	(Test, [Date])
 VALUES
-	('Test 234', GETDATE())
+	('Graeme 234', GETDATE())
