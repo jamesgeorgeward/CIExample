@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Literal runat="server" ID="ltrTest" />!
+            <asp:Literal runat="server" ID="ltrTest" />
         </div>
     </form>
 </body>
